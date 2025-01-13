@@ -1,0 +1,4 @@
+typing_extensions
+langgraph
+langchain_openai
+langchain_core
