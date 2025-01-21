@@ -3,3 +3,4 @@ langgraph
 langchain_openai
 langchain_core
 python-dotenv
+yfinance
