@@ -12,23 +12,30 @@ The tutorial is structured in a progressive manner, with each notebook building 
    - Introduction to basic graph concepts
    - Understanding state management
    - Implementation of simple chains
-   - 📺 [LangGraph Intro - Learn How to Build AI Agents with Tools and Graphs](https://www.youtube.com/watch?v=8azc-h0INTQ)
+   - [LangGraph Intro - Learn How to Build AI Agents with Tools and Graphs](https://www.youtube.com/watch?v=8azc-h0INTQ)
 
 2. **Router Implementation** (`02_router.ipynb`)
    - Working with routers in LangGraph
    - Flow control and decision making
-   - 📺 [LangGraph Intro - Build Router AI Agents with LangGraph Tools and LLMs](https://www.youtube.com/watch?v=MN9RD8sAKjk)
+   - [LangGraph Intro - Build Router AI Agents with LangGraph Tools and LLMs](https://www.youtube.com/watch?v=MN9RD8sAKjk)
 
 3. **Agent Creation** (`03_agent.ipynb`)
    - Building agents with LangGraph
    - Agent architecture and components
-   - 📺 [LangGraph Intro - Build Autonomous AI Agents with ReAct and LangGraph Tools](https://www.youtube.com/watch?v=ZfjaIshGkmk)
+   - [LangGraph Intro - Build Autonomous AI Agents with ReAct and LangGraph Tools](https://www.youtube.com/watch?v=ZfjaIshGkmk)
 
 4. **Agent with Memory** (`04_agent-memory.ipynb`)
    - Implementing memory capabilities
    - State persistence and management
    - Advanced agent patterns
-   - 📺 [LangGraph Intro Build AI Agents with Memory Using LangGraph and LLMs](https://www.youtube.com/watch?v=pLaXs--af14)
+   - [LangGraph Intro Build AI Agents with Memory Using LangGraph and LLMs](https://www.youtube.com/watch?v=pLaXs--af14)
+
+5. **Chatbot Message Management** (`05_chatbot-messages.ipynb`)
+   - Managing conversation context and history
+   - Token usage optimization
+   - Message state handling
+   - Efficient message trimming strategies
+   - [LangGraph Intro Optimize Chatbot Messages with Memory and Schema Building Blocks for AI Agents](https://www.youtube.com/watch?v=rNYV_Qf9MLk)
 
 ## Prerequisites
 
