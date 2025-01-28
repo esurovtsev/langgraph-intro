@@ -35,6 +35,7 @@ The tutorial is structured in a progressive manner, with each notebook building 
    - Token usage optimization
    - Message state handling
    - Efficient message trimming strategies
+   - [LangGraph Intro Optimize Chatbot Messages with Memory and Schema Building Blocks for AI Agents](https://www.youtube.com/watch?v=rNYV_Qf9MLk)
 
 ## Prerequisites
 
