@@ -37,6 +37,13 @@ The tutorial is structured in a progressive manner, with each notebook building 
    - Efficient message trimming strategies
    - [LangGraph Intro Optimize Chatbot Messages with Memory and Schema Building Blocks for AI Agents](https://www.youtube.com/watch?v=rNYV_Qf9MLk)
 
+6. **Chatbot Summarization** (`06_chatbot-summarization.ipynb`)
+   - Advanced memory optimization techniques
+   - Implementing conversation summarization
+   - Dynamic context management
+   - Memory compression strategies
+   - [LangGraph Intro - Optimize Chatbot Memory with Summarization: Smarter AI Agents with LangGraph](https://www.youtube.com/watch?v=W0gzRP_g6H0)
+
 ## Prerequisites
 
 - Python 3.8+
