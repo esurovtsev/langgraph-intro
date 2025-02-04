@@ -6,3 +6,4 @@ langgraph-checkpoint-mongodb
 python-dotenv
 yfinance
 pymongo
+ipython
