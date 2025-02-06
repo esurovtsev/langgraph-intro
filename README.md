@@ -82,16 +82,23 @@ The project relies on the following main packages:
 - `langchain_openai` - LangChain OpenAI integration
 - `langchain_core` - Core LangChain functionalities
 - `python-dotenv` - Environment variable management
+- `pymongo` - MongoDB driver for persistent storage
+- `langgraph-checkpoint-mongodb` - MongoDB checkpoint storage for LangGraph
 - `yfinance` - Financial data integration (for examples)
 - `typing_extensions` - Type hints and annotations
 
 ## Environment Setup
 
-1. Create a `.env` file in the root directory
-2. Add your required API keys and configurations:
-```
-OPENAI_API_KEY=your_api_key_here
-```
+1. Create `.env` files in these locations:
+   - Root directory: 
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+   - Studio directory (if using LangGraph Studio):
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+2. Add your API keys to both locations
 
 ## Usage
 
