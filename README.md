@@ -44,6 +44,13 @@ The tutorial is structured in a progressive manner, with each notebook building 
    - Memory compression strategies
    - [LangGraph Intro - Optimize Chatbot Memory with Summarization: Smarter AI Agents with LangGraph](https://www.youtube.com/watch?v=W0gzRP_g6H0)
 
+7. **Chatbot Persistence** (`07_chatbot-persistence.ipynb`)
+   - Implementing MongoDB for long-term memory storage
+   - LangGraph Studio integration for workflow visualization
+   - Persistent state management across conversations
+   - Database configuration and connection handling
+   - [LangGraph Intro Persist AI Agent Memory with MongoDB and LangGraph Studio](https://www.youtube.com/watch?v=OjGsw5IeR-g)
+
 ## Prerequisites
 
 - Python 3.8+
