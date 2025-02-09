@@ -51,6 +51,15 @@ The tutorial is structured in a progressive manner, with each notebook building 
    - Database configuration and connection handling
    - [LangGraph Intro Persist AI Agent Memory with MongoDB and LangGraph Studio](https://www.youtube.com/watch?v=OjGsw5IeR-g)
 
+8. **Streaming & API Integration** (`08_streaming.ipynb`)
+   - LangGraph Studio as local server and API gateway
+   - Real-time state streaming techniques (updates/values/messages)
+   - API integration patterns for existing workflows
+   - Visualizing node-to-node state transitions
+   - Hybrid execution (notebook vs studio environments)
+   - Preparing for human-in-the-loop workflows
+   - [LangGraph Intro Streaming AI Agent State and API Calls with LangGraph Studio](https://www.youtube.com/watch?v=hMHyPtwruVs)
+
 ## Prerequisites
 
 - Python 3.8+
