@@ -60,6 +60,16 @@ The tutorial is structured in a progressive manner, with each notebook building 
    - Preparing for human-in-the-loop workflows
    - [LangGraph Intro Streaming AI Agent State and API Calls with LangGraph Studio](https://www.youtube.com/watch?v=hMHyPtwruVs)
 
+9. **Human-in-the-Loop Workflows** (`09_breakpoints.ipynb`)
+   - Implementing execution breakpoints for user approval
+   - State inspection and modification during pauses
+   - Flow resumption using null parameters
+   - Studio integration for visual breakpoint management
+   - Infinite tool call support with approval checks
+   - Hybrid execution patterns (CLI vs Studio)
+   - API parameter handling for flow continuation
+   - [LangGraph Intro - Human in the Loop: Breaking and Resuming AI Agent Execution with LangGraph](https://www.youtube.com/watch?v=f0HEm9nY4ec)
+
 ## Prerequisites
 
 - Python 3.8+
