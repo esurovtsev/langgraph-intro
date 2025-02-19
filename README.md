@@ -70,6 +70,14 @@ The tutorial is structured in a progressive manner, with each notebook building 
    - API parameter handling for flow continuation
    - [LangGraph Intro - Human in the Loop: Breaking and Resuming AI Agent Execution with LangGraph](https://www.youtube.com/watch?v=f0HEm9nY4ec)
 
+10. **Advanced Human Feedback** (`10_human-feedback.ipynb`)
+    - State manipulation after breakpoints
+    - Interactive feedback collection and processing
+    - Message content replacement strategies
+    - User feedback node patterns
+    - Graph state modification techniques
+    - [LangGraph Intro - Human-in-the-Loop: Collecting and Processing User Feedback in AI Agent Workflows](https://www.youtube.com/watch?v=DZVtftZsr60)
+
 ## Prerequisites
 
 - Python 3.8+
