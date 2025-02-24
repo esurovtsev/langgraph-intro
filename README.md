@@ -78,6 +78,16 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Graph state modification techniques
     - [LangGraph Intro - Human-in-the-Loop: Collecting and Processing User Feedback in AI Agent Workflows](https://www.youtube.com/watch?v=DZVtftZsr60)
 
+11. **Dynamic Breakpoints** (`11_dynamic-breakpoints.ipynb`)
+    - Implementing conditional execution breaks
+    - Intent validation and flow control
+    - Dynamic state inspection during breaks
+    - Message content validation and correction
+    - Graph resumption with modified state
+    - Exception-based breakpoint triggers
+    - Studio and API integration for dynamic control
+    - [LangGraph Intro - Human-in-the-Loop: Dynamic Breakpoints for AI Agent Control with LangGraph](https://www.youtube.com/watch?v=LvkzIS3OV9w)
+
 ## Prerequisites
 
 - Python 3.8+
