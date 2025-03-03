@@ -88,6 +88,16 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Studio and API integration for dynamic control
     - [LangGraph Intro - Human-in-the-Loop: Dynamic Breakpoints for AI Agent Control with LangGraph](https://www.youtube.com/watch?v=LvkzIS3OV9w)
 
+12. **State Replay and Forking** (`12_replay-fork-state.ipynb`)
+    - Understanding checkpoint-based state management
+    - Accessing thread state history and snapshots
+    - State replay from historical checkpoints
+    - Graph forking and execution branching
+    - Thread-based conversation management
+    - SDK and API implementation patterns
+    - Replay (event playback) vs Fork (real execution)
+    - [LangGraph Intro - Human-in-the-Loop: Replaying and Forking AI Agent State with LangGraph](https://www.youtube.com/watch?v=q70GGEHNWgw)
+
 ## Prerequisites
 
 - Python 3.8+
