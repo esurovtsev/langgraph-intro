@@ -98,6 +98,16 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Replay (event playback) vs Fork (real execution)
     - [LangGraph Intro - Human-in-the-Loop: Replaying and Forking AI Agent State with LangGraph](https://www.youtube.com/watch?v=q70GGEHNWgw)
 
+13. **Parallel AI Execution** (`13_parallel-ai-execution.ipynb`)
+    - Implementing concurrent node execution
+    - State conflict resolution with reducers
+    - Super step transaction management
+    - Synchronizing parallel execution flows
+    - Conditional branching in parallel workflows
+    - Building multi-source AI assistants
+    - Performance optimization techniques
+    - [LangGraph Intro - Running AI Agent Tasks in Parallel with LangGraph](https://www.youtube.com/watch?v=2eMkNLXAs68)
+
 ## Prerequisites
 
 - Python 3.8+
@@ -128,11 +138,13 @@ The project relies on the following main packages:
 - `langgraph` - Core framework for building graph-based workflows
 - `langchain_openai` - LangChain OpenAI integration
 - `langchain_core` - Core LangChain functionalities
+- `langchain_community` - Community integrations for LangChain
 - `python-dotenv` - Environment variable management
 - `pymongo` - MongoDB driver for persistent storage
 - `langgraph-checkpoint-mongodb` - MongoDB checkpoint storage for LangGraph
 - `yfinance` - Financial data integration (for examples)
 - `typing_extensions` - Type hints and annotations
+- `wikipedia` - Python library for accessing Wikipedia content
 
 ## Environment Setup
 

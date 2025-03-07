@@ -3,6 +3,8 @@ langgraph
 langchain_openai
 langchain_core
 langgraph-checkpoint-mongodb
+langchain_community
 python-dotenv
 yfinance
 pymongo
+wikipedia
