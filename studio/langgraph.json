@@ -4,7 +4,8 @@
       "chatbot": "./chatbot.py:graph",
       "financial_advisor": "./financial_advisor.py:graph",
       "financial_advisor_breakpoint": "./financial_advisor_breakpoint.py:graph",
-      "financial_advisor_intent_check": "./financial_advisor_intent_check.py:graph"
+      "financial_advisor_intent_check": "./financial_advisor_intent_check.py:graph",
+      "map_reduce": "./map_reduce.py:graph"
     },
     "env": "./.env",
     "python_version": "3.11",
