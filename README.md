@@ -118,6 +118,17 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Complex workflow orchestration with specialized subgraphs
     - [LangGraph Intro - Structuring AI Agent Workflows with Subgraphs in LangGraph](https://www.youtube.com/watch?v=52oj4SPUHRA)
 
+15. **MapReduce for Parallel Processing** (`15_mapreduce-financial-agent.ipynb`)
+    - Implementing the MapReduce pattern for AI agent tasks
+    - Dynamic node generation during runtime execution
+    - Parallel data processing with mapped nodes
+    - State aggregation with reducer functions
+    - Building a financial advisor agent with stock analysis
+    - Yahoo Finance integration for real-time data
+    - Structured output generation with rankings and recommendations
+    - Visualizing dynamic parallel workflows in LangGraph Studio
+    - [LangGraph Intro – Scaling AI Agents with MapReduce in LangGraph](https://www.youtube.com/watch?v=QI1lvV0rqig)
+
 ## Prerequisites
 
 - Python 3.8+
