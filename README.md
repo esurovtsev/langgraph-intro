@@ -108,6 +108,16 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Performance optimization techniques
     - [LangGraph Intro - Running AI Agent Tasks in Parallel with LangGraph](https://www.youtube.com/watch?v=2eMkNLXAs68)
 
+14. **AI Agent Subgraphs** (`14_ai-agent-subgraphs.ipynb`)
+    - Implementing subgraphs as modular components
+    - Registering subgraphs as nodes in parent graphs
+    - Query classification and optimization techniques
+    - Multi-source information retrieval (web search and Wikipedia)
+    - State synchronization between subgraphs
+    - Structured response generation with source attribution
+    - Complex workflow orchestration with specialized subgraphs
+    - [LangGraph Intro - Structuring AI Agent Workflows with Subgraphs in LangGraph](https://www.youtube.com/watch?v=52oj4SPUHRA)
+
 ## Prerequisites
 
 - Python 3.8+
