@@ -129,6 +129,17 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Visualizing dynamic parallel workflows in LangGraph Studio
     - [LangGraph Intro – Scaling AI Agents with MapReduce in LangGraph](https://www.youtube.com/watch?v=QI1lvV0rqig)
 
+16. **Multi-Agent Research Pipeline** (`16_multi-agent-research.ipynb`)
+    - Building complex multi-agent research workflows
+    - Team formation with human-in-the-loop feedback
+    - Structured output for analyst profile generation
+    - Dialogue-based expert interview subgraphs
+    - Parallel execution using map-reduce pattern
+    - External search integration (web and Wikipedia)
+    - Synthesizing research outputs into comprehensive reports
+    - Coordinated autonomous multi-agent system design
+    - [LangGraph Intro - Multi Agent Research Pipelines and Report Writing with LangGraph](https://www.youtube.com/watch?v=rCWpJlZdH0c)
+
 ## Prerequisites
 
 - Python 3.8+
