@@ -140,6 +140,18 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Coordinated autonomous multi-agent system design
     - [LangGraph Intro - Multi Agent Research Pipelines and Report Writing with LangGraph](https://www.youtube.com/watch?v=rCWpJlZdH0c)
 
+17. **Long-Term Memory Store** (`17_longterm-memory-store.ipynb`)
+    - Introducing persistent long-term memory in LangGraph
+    - Differences between short-term (thread) and long-term (user) memory
+    - Organizing memory with namespaces, keys, and values
+    - Storing and retrieving user facts and preferences
+    - Building chatbots with both short- and long-term memory
+    - Personalizing replies using persistent user context
+    - Updating and recalling memory across threads and sessions
+    - Demonstration in both code and LangGraph Studio
+    - [LangGraph Intro – Storing and Using Long-Term Memory in AI Agents with LangGraph](https://www.youtube.com/watch?v=iVtVsI4UTfo)
+
+
 ## Prerequisites
 
 - Python 3.8+
