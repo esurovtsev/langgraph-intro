@@ -151,6 +151,19 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Demonstration in both code and LangGraph Studio
     - [LangGraph Intro – Storing and Using Long-Term Memory in AI Agents with LangGraph](https://www.youtube.com/watch?v=iVtVsI4UTfo)
 
+18. **User Profile Management** (`18_user_profiles.ipynb`)
+    - Structuring and managing user profiles with long-term memory
+    - Recap of basic user fact storage and its limitations
+    - Designing a structured User Profile schema using Pydantic
+    - Organizing user attributes: name, profession, seniority, programming languages, frameworks, projects, skills, and interests
+    - Integrating structured LLM outputs with LangGraph's memory system
+    - Automatically extracting and updating user data during conversations
+    - Personalizing chatbot responses based on user profile information
+    - Dynamically adding new interests and updating user context over time
+    - Demonstration of persistent, structured memory for smarter AI agents
+    - [LangGraph Intro – Building and Updating User Profiles for AI Agents with LangGraph](https://www.youtube.com/watch?v=49FjYCpbpQU)
+
+
 
 ## Prerequisites
 
