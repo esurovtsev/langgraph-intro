@@ -8,3 +8,4 @@ python-dotenv
 yfinance
 pymongo
 wikipedia
+trustcall

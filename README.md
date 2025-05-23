@@ -163,6 +163,16 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Demonstration of persistent, structured memory for smarter AI agents
     - [LangGraph Intro – Building and Updating User Profiles for AI Agents with LangGraph](https://www.youtube.com/watch?v=49FjYCpbpQU)
 
+19. **Trustcall for Incremental Memory Extraction** (`19_trustcall-memory-extraction.ipynb`)
+    - Introducing Trustcall, a LangChain-native library for robust memory extraction
+    - Addressing limitations of full-structure LLM outputs and fragile parsing
+    - Enabling partial, incremental updates to user profiles (JSON patching)
+    - Configuring Trustcall to extract and patch user profile data from conversations
+    - Integrating Trustcall with LangGraph agents for seamless memory updates
+    - Demonstrating accurate, consistent, and scalable long-term personalization
+    - Hands-on chatbot example with persistent and evolving user profiles
+    - [LangGraph Intro – Enhancing AI Agent Memory Extraction with Trustcall in LangGraph](https://www.youtube.com/watch?v=aadbkSuiaNU)
+
 
 
 ## Prerequisites
@@ -199,6 +209,7 @@ The project relies on the following main packages:
 - `python-dotenv` - Environment variable management
 - `pymongo` - MongoDB driver for persistent storage
 - `langgraph-checkpoint-mongodb` - MongoDB checkpoint storage for LangGraph
+- `trustcall` - Incremental and robust memory extraction for AI agents
 - `yfinance` - Financial data integration (for examples)
 - `typing_extensions` - Type hints and annotations
 - `wikipedia` - Python library for accessing Wikipedia content
