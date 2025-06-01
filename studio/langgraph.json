@@ -6,7 +6,8 @@
       "financial_advisor_breakpoint": "./financial_advisor_breakpoint.py:graph",
       "financial_advisor_intent_check": "./financial_advisor_intent_check.py:graph",
       "map_reduce": "./map_reduce.py:graph",
-      "chatbot_long_term_memory": "./chatbot_long_term_memory.py:graph"
+      "chatbot_long_term_memory": "./chatbot_long_term_memory.py:graph",
+      "directive_memory_bot": "./directive_memory_bot.py:graph"
     },
     "env": "./.env",
     "python_version": "3.11",
