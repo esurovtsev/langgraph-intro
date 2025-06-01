@@ -173,6 +173,16 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Hands-on chatbot example with persistent and evolving user profiles
     - [LangGraph Intro – Enhancing AI Agent Memory Extraction with Trustcall in LangGraph](https://www.youtube.com/watch?v=aadbkSuiaNU)
 
+20. **Managing Memory Collections** (`20_memory-collections.ipynb`)
+    - Handling collections in long-term memory with Trustcall and LangGraph
+    - Defining schemas for memory items (e.g., directives lists)
+    - Extracting and updating multiple entries from conversations
+    - Storing items with unique keys and supporting partial updates
+    - Configuring Trustcall for advanced schema and collection handling
+    - Integrating collections into chatbot workflows for dynamic responses
+    - Efficient memory node updates based on recent user messages
+    - Live demonstration in LangGraph Studio: creating, updating, and leveraging collections in real-time
+    - [LangGraph Intro – Managing Memory Collections in AI Agents with Trustcall and LangGraph](https://www.youtube.com/watch?v=9PqEIXrUPdw)
 
 
 ## Prerequisites
@@ -226,6 +236,36 @@ The project relies on the following main packages:
    OPENAI_API_KEY=your_api_key_here
    ```
 2. Add your API keys to both locations
+
+## Running Agents in `studio` Using LangGraph Studio (Web Interface)
+
+To run agents (such as those found in the `studio` directory) using the LangGraph Studio web interface for local development, follow these steps:
+
+1. **Install Required Dependencies**
+   Make sure all dependencies for your agent are installed:
+   ```bash
+   pip install -r studio/requirements.txt
+   ```
+
+2. **Install the LangGraph CLI**
+   ```bash
+   pip install -U "langgraph-cli[inmem]"
+   ```
+
+4. **Start the Local LangGraph Development Server**
+   From the `studio` directory, run:
+   ```bash
+   langgraph dev
+   ```
+   This will start the local LangGraph server in watch mode.
+
+4. **Open LangGraph Studio in Your Browser**
+   Once the server is running, you can access the Studio UI at:
+   [https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024](https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024)
+   (If your server is running at a different host/port, update the `baseUrl` accordingly.)
+
+For more details and troubleshooting, see the [official LangGraph Studio Quickstart](https://langchain-ai.github.io/langgraph/cloud/how-tos/studio/quick_start/).
+
 
 ## Usage
 
