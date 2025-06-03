@@ -85,7 +85,7 @@ def update_memory(state: MessagesState, config: RunnableConfig, store: BaseStore
     Avoid simple rephrasing of existing directives.
     """
 
-    user_messages = [msg for msg in state["messages"] if msg.type == "human"][-3:]
+    user_messages = [msg for msg in state["messages"] if msg.type == "human"][-1:]
 
     result = trustcall_extractor.invoke({
         "messages": [system_msg] + user_messages, 

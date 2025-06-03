@@ -184,6 +184,15 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Live demonstration in LangGraph Studio: creating, updating, and leveraging collections in real-time
     - [LangGraph Intro – Managing Memory Collections in AI Agents with Trustcall and LangGraph](https://www.youtube.com/watch?v=9PqEIXrUPdw)
 
+21. **Inspecting Trustcall Patch Updates & Tool Calls** (`21_trustcall-update-inspect.ipynb`)
+    - Deep dive into Trustcall's memory update mechanism and JSON patching
+    - Demonstrating creation and modification tracking in long-term memory
+    - Leveraging LangSmith for tracing Trustcall's data extraction and patch instructions
+    - Implementing custom listeners for introspecting tool executions
+    - Parsing patch instructions and summarizing memory changes with listeners
+    - Understanding patch logic, schema updates, and agent learning insights
+    - [LangGraph Intro – Inspecting Trustcall Patch Updates and Memory Tool Calls in LangGraph](https://www.youtube.com/watch?v=YjVtWcD_6Uo)
+
 
 ## Prerequisites
 
