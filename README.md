@@ -193,6 +193,16 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Understanding patch logic, schema updates, and agent learning insights
     - [LangGraph Intro – Inspecting Trustcall Patch Updates and Memory Tool Calls in LangGraph](https://www.youtube.com/watch?v=YjVtWcD_6Uo)
 
+22. **Developer Mentor AI Agent** (`22_devmentor-agent.ipynb`)
+    - Building a Developer Mentor AI Agent using all long-term memory techniques
+    - Integrating structured user profiles, instruction lists, and ADRs for context-rich assistance
+    - Configuring memory routing and updates with tool calls and Trustcall extractors
+    - Structuring and managing multiple memory types for real-world agent use
+    - Handling conflicting instructions and leveraging saved architectural decisions
+    - Demonstrating chatbot conversations with persistent, evolving preferences and decisions
+    - Creating a reusable template for autonomous developer assistants
+    - [LangGraph Intro – Building Developer Mentor AI Agent with Long-Term Memory and Structured Updates](https://www.youtube.com/watch?v=PTRHQtsdvDw)
+
 
 ## Prerequisites
 
