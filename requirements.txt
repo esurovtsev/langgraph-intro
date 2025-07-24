@@ -9,3 +9,4 @@ yfinance
 pymongo
 wikipedia
 trustcall
+langchain-mcp-adapters
