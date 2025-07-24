@@ -203,6 +203,16 @@ The tutorial is structured in a progressive manner, with each notebook building 
     - Creating a reusable template for autonomous developer assistants
     - [LangGraph Intro – Building Developer Mentor AI Agent with Long-Term Memory and Structured Updates](https://www.youtube.com/watch?v=PTRHQtsdvDw)
 
+23. **MCP Tooling Integration** (`23_mcp-tooling.ipynb`)
+    - Connecting external MCP servers to LangGraph agents for dynamic tooling
+    - Transitioning from hardcoded tools to flexible MCP-compatible configurations
+    - Loading tools dynamically using MCP adapter and config files
+    - Implementing GitHub API integration for real-time repository data
+    - Comparing traditional static tool implementation with dynamic MCP approach
+    - Building agents that can discover and use tools without manual definition
+    - Demonstrating complete workflow from config setup to agent execution
+    - [LangGraph Intro – Using MCP Servers to Extend AI Agents with Dynamic Tooling in LangGraph](https://www.youtube.com/watch?v=T9t9kDXY92U)
+
 
 ## Prerequisites
 
